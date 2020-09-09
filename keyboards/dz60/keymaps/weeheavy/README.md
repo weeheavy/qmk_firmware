@@ -31,15 +31,15 @@ Specialities:
 
 ```
 ,----------------------------------------------------------.
-|Es||1 ||2 ||3 ||4 ||5 ||6 ||7 ||8 ||9 ||0 ||- ||= || Bksp |
+|Es||1 ||2 ||3 ||4 ||5 ||6 ||7 ||8 ||9 ||0 ||- ||= || Caps |
 |----------------------------------------------------------+
 |Tab ||Q ||W ||E ||R ||T ||Y ||U ||I ||O ||P ||[ ||] || \  |
 |----------------------------------------------------------+
-|Caps ||A ||S ||D ||F ||G ||H ||J ||K ||L ||; ||' || Enter |
+|Bksp ||A ||S ||D ||F ||G ||H ||J ||K ||L ||; ||' || Enter |
 |----------------------------------------------------------+
 |Shift ||Z ||X ||C ||V ||B ||N ||M ||, ||. ||/ ||Sf||↑ ||Dl|
 |----------------------------------------------------------+
-|Ctl||Win||Alt|| Space ||FN1||  Space  ||Al||F2||← ||↓ ||→ |
+|Ctl||Win||Alt|| FN3   ||FN1||  Space  ||Al||F2||← ||↓ ||→ |
 `----------------------------------------------------------'
 ```
 
@@ -59,3 +59,11 @@ Specialities:
 * Reset key on ESC and backslash location
 * Additional "B" key (a learning from my mistakes)
 
+### Layer 3: Mouse control, vim mode
+
+Specialities:
+
+* WASD is mouse movement
+* Q is left click
+* E is right click
+* H, J, K, L is vim-style movement
