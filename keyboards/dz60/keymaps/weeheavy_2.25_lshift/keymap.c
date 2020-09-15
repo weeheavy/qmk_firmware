@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_B, RGB_TOG, RGB_MOD, RGB_M_K, RGB_M_R, ____, ____, KC_PSCR, ____, KC_PAUS, KC_BRID, KC_BRIU, ____, RESET,
 	____, RGB_HUI, RGB_HUD, KC_DEL, ____, ____, ____, KC_INS, KC_HOME, KC_PGUP, ____, ____, ____,
 	____, ____, RGB_SAI, RGB_SAD, ____, ____, ____, ____, ____, KC_END, KC_PGDN, KC_MPLY, ____, KC_MUTE, KC_MUTE,
-	____, RGB_VAI, RGB_VAD, ____, ____, ____, ____, KC_MPRV, KC_VOLU, KC_VOLD, KC_MNXT),
+	____, RGB_VAI, RGB_VAD, ____, ____, ____, ____, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT),
 
 // Mouse control
 [L2] = LAYOUT_all(
