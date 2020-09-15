@@ -7,14 +7,15 @@
 // Layer definition
 #define L0 0
 #define L1 1
+#define L2 2
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Base layer - ANSI QWERTY
 [L0] = LAYOUT_all(
-	KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL, XXXX, KC_BSPC,
+	KC_GESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL, XXXX, TT(L2),
 	KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC, KC_BSLS,
-	KC_CAPS, KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, KC_ENT,
+	KC_BSPC, KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, KC_ENT,
 	KC_LSFT, XXXX, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_RSFT, KC_RSFT,
 	KC_LCTL, KC_LGUI, KC_LALT, KC_SPC, KC_SPC, KC_SPC, MO(L1), KC_LEFT, KC_UP, KC_DOWN, KC_RIGHT),
 
@@ -25,6 +26,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	____, RGB_HUI, RGB_HUD, KC_DEL, ____, ____, ____, KC_INS, KC_HOME, KC_PGUP, ____, ____, ____,
 	____, ____, RGB_SAI, RGB_SAD, ____, ____, ____, ____, ____, KC_END, KC_PGDN, KC_MPLY, ____, KC_MUTE, KC_MUTE,
 	____, RGB_VAI, RGB_VAD, ____, ____, ____, ____, KC_MPRV, KC_VOLU, KC_VOLD, KC_MNXT),
+
+// Mouse control
+[L2] = LAYOUT_all(
+	RESET, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
+	KC_B, KC_BTN1, KC_MS_U, KC_BTN3, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
+	____, KC_MS_L, KC_MS_D, KC_MS_R, ____, ____, ____, ____, ____, ____, ____, ____, ____,
+	____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
+	____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____),
 
 };
 
